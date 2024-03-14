@@ -40,6 +40,13 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style>
+    .portfolio-item {
+    transition: background-color 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+      background-color: #f0f0f0; /* Cambia este valor al color que desees */
+    }
     /* Estilos normales para pantallas más grandes */
     #portfolio-flters {
       display: flex;
@@ -94,7 +101,7 @@
           <li><a class="nav-link   scrollto" href="#portfolio">CARRERAS</a></li>
           <li><a class="nav-link scrollto" href="#team">DIRECTIVOS</a></li>
           <li><a class="nav-link scrollto" href="#contact">CONTACTOS</a></li>
-          <li><a class="getstarted scrollto" href="login.php">ACCEDER</a></li>
+          <li><a class="getstarted scrollto" href="#">EVENTOS</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -270,122 +277,140 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
               <!-- ======= Carreras tecnico medio ======= -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/enfermeria.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>ENFERMERIA</h4>
-              <p>Técnico Medio</p>
-              <a href="enfermeria.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
+            <a href="enfermeria.html" class="details-link" title="More Details">
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/enfermeria.jpg" width="500" class="img-fluid img-thumbnail" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>ENFERMERIA</h4>
+                <p>Técnico Medio</p>
+              </div>
+          </a>   
           </div>
 
               <!-- ======= Carrera tecnico superior ======= -->
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-img"><img src="assets/img/portfolio/belleza2.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-                <div class="portfolio-info">
-                  <h4>BELLEZA INTEGRAL</h4>
-                  <p>Técnico Superior</p>
-                  <a href="belleza.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-                </div>
+                <a href="belleza.html" class="details-link" title="More Details">
+                  <div class="portfolio-img">
+                      <img src="assets/img/portfolio/belleza2.jpg" width="500" class="img-fluid img-thumbnail" alt="">
+                  </div>
+                  <div class="portfolio-info">
+                      <h4>BELLEZA INTEGRAL</h4>
+                      <p>Técnico Superior</p>
+                  </div>
+              </a>              
               </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/sistemas3.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>SISTEMAS INFORMATICOS</h4>
-              <p>Técnico Superior</p>
-              <a href="sistemas.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <a href="sistemas.html" class="details-link" title="More Details">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/sistemas3.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
+                    <div class="portfolio-info">
+                        <h4>SISTEMAS INFORMATICOS</h4>
+                        <p>Técnico Superior</p>
+                    </div>
+                </a>
             </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <a href="contabilidad.html" class="details-link" title="More Details">
+                  <div class="portfolio-img"><img src="assets/img/portfolio/contabilidad.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
+                  <div class="portfolio-info">
+                      <h4>CONTADURÍA GENERAL</h4>
+                      <p>Técnico Superior</p>
+                  </div>
+              </a>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/contabilidad.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>CONTADURÍA GENERAL</h4>
-              <p>Técnico Superior</p>
-              <a href="contabilidad.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
+              <a href="secretariado.html" class="details-link" title="More Details">
+                  <div class="portfolio-img"><img src="assets/img/portfolio/secretariado.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
+                  <div class="portfolio-info">
+                      <h4>SECRETARIADO EJECUTIVO</h4>
+                      <p>Técnico Superior</p>
+                  </div>
+              </a>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/secretariado.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>SECRETARIADO EJECUTIVO</h4>
-              <p>Técnico Superior</p>
-              <a href="secretariado.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
+            <!-- Continúa repitiendo este mismo patrón para los demás bloques de contenido -->
+            
               <!-- ======= capacitación ======= -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/ofimatica.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>TECNICO EN APLICACIONES</h4>
-              <p>Capacitación</p>
-              <a href="ofimatica.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <a href="ofimatica.html" class="details-link" title="More Details">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/ofimatica.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                    <div class="portfolio-info">
+                        <h4>TECNICO EN APLICACIONES</h4>
+                        <p>Capacitación</p>
+                    </div>
+                </a>
             </div>
-          </div>
+            
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/ensamblaje.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>ENSAMBLAJE DE COMPUTADORAS</h4>
-              <p>Capacitación</p>
-              <a href="ensamblaje.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <a href="ensamblaje.html" class="details-link" title="More Details">
+                  <div class="portfolio-img"><img src="assets/img/portfolio/ensamblaje.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                  <div class="portfolio-info">
+                      <h4>ENSAMBLAJE DE COMPUTADORAS</h4>
+                      <p>Capacitación</p>
+                  </div>
+              </a>
           </div>
-
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/corte.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>CORTE Y CONFECCIÓN</h4>
-              <p>Capacitación</p>
-              <a href="corte.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
+              <a href="corte.html" class="details-link" title="More Details">
+                  <div class="portfolio-img"><img src="assets/img/portfolio/corte.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                  <div class="portfolio-info">
+                      <h4>CORTE Y CONFECCIÓN</h4>
+                      <p>Capacitación</p>
+                  </div>
+              </a>
           </div>
-
-           
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/diseñador2.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>DISEÑO GRAFICO</h4>
-              <p>Capacitación</p>
-              <a href="diseño.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
+              <a href="diseño.html" class="details-link" title="More Details">
+                  <div class="portfolio-img"><img src="assets/img/portfolio/diseñador2.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                  <div class="portfolio-info">
+                      <h4>DISEÑO GRAFICO</h4>
+                      <p>Capacitación</p>
+                  </div>
+              </a>
           </div>
-
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/cotillon3.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>COTILLONERIA</h4>
-              <p>Capacitación</p>
-              <a href="cotillones.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/reposteria.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>REPOSTERIA</h4>
-              <p>Capacitación</p>
-              <a href="reposteria.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/pelu.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>PELUQUERÍA Y BARBERÍA</h4>
-              <p>Capacitación</p>
-              <a href="peluqueria.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/conduccion.jpg" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>ESCUELA DE CONDUCCIÓN</h4>
-              <p>Capacitación</p>
-              <a href="conduccion.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
-
+            <a href="cotillones.html" class="details-link" title="More Details">
+                <div class="portfolio-img"><img src="assets/img/portfolio/cotillon3.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                <div class="portfolio-info">
+                    <h4>COTILLONERIA</h4>
+                    <p>Capacitación</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="reposteria.html" class="details-link" title="More Details">
+                <div class="portfolio-img"><img src="assets/img/portfolio/reposteria.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                <div class="portfolio-info">
+                    <h4>REPOSTERIA</h4>
+                    <p>Capacitación</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="peluqueria.html" class="details-link" title="More Details">
+                <div class="portfolio-img"><img src="assets/img/portfolio/pelu.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                <div class="portfolio-info">
+                    <h4>PELUQUERÍA Y BARBERÍA</h4>
+                    <p>Capacitación</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="conduccion.html" class="details-link" title="More Details">
+                <div class="portfolio-img"><img src="assets/img/portfolio/conduccion.jpg" class="img-fluid img-thumbnail" alt=""></div>
+                <div class="portfolio-info">
+                    <h4>ESCUELA DE CONDUCCIÓN</h4>
+                    <p>Capacitación</p>
+                </div>
+            </a>
+        </div>
+        
 
 
   
@@ -574,12 +599,7 @@
               <div class="pic"><img src="assets/img/team/carmen.jpg" class="img-fluid" style="max-width: 100%; height: auto; width: 100px; height: 100px;"></div>
               <div class="member-info">
                 <h4>RECTORA GENERAL DEL GRUPO EMPRESARIAL BERLIN</h4>
-                <span>Lic. Carmen Clavijo Plaza</span>
-                <div class="social">
-
-                  <a href="https://www.facebook.com/carmenrosa.clavijoplaza.9"><i class="ri-facebook-fill"></i></a>
-              
-                </div>
+                <span>Lic. Carmen Clavijo Plaza (†)</span>
               </div>
             </div>
           </div>
@@ -881,7 +901,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        <p>Pagina diseñada y programada por José Américo Ramos Terán INFORMES: <a href="https://wa.me/+59173258117">73258117</a></p>
+        <p>Pagina diseñada y programada por el Inf. José Américo Ramos Terán INFORMES: <a href="https://wa.me/+59173258117">73258117</a></p>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -893,7 +913,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="img/berlin.png" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <!-- boton whatsaoo flotante -->
   <a href="https://wa.me/+59176791708" class="btn-wsp" target="_blank">
     <i class="fa fa-whatsapp icono"></i>
